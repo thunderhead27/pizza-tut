@@ -1,0 +1,261 @@
+[
+    {
+        "id": 1,
+        "name": "Cheese Pizza",
+        "category": "pizza",
+        "image": "/images/pizzas/cheesePizza.png",
+        "description": "JUST CHEESE, TOMATO SAUCE, AND DOUGH",
+        "price": [
+                {"size": "small", "price": 12.99},
+                {"size": "medium", "price": 14.99},
+                {"size": "large", "price": 16.99},
+                {"size": "xLarge", "price": 18.99}
+        ],
+        "points": 5
+    },
+    {
+        "id": 2,
+        "name": "Meat Lovers Pizza",
+        "category": "pizza",
+        "image": "/images/pizzas/meat-lovers.png",
+        "description": "PEPPERONI, MEATBALLS, ITALIAN SAUSAGE, AND HAM",
+        "price": [
+                {"size": "small", "price": 15.99},
+                {"size": "medium", "price": 17.99},
+                {"size": "large", "price": 19.99},
+                {"size": "xLarge", "price": 22.99}
+        ],
+        "points": 5
+    },
+    {
+        "id": 3,
+        "name": "Deluxe Pizza",
+        "category": "pizza",
+        "image": "/images/pizzas/deluxe.png",
+        "description": "PEPPERONI, ITALIAN SAUSAGE, OLIVES, ONIONS, AND GREEN PEPPERS",
+        "price": [
+                {"size": "small", "price": 15.99},
+                {"size": "medium", "price": 17.99},
+                {"size": "large", "price": 19.99},
+                {"size": "xLarge", "price": 22.99}
+        ],
+        "points": 5
+    },
+    {
+        "id": 4,
+        "name": "Hawaiian Pizza",
+        "category": "pizza",
+        "image": "/images/pizzas/hawaiian.png",
+        "description": "HAM AND PINEAPPLE",
+        "price": [
+                {"size": "small", "price": 15.99},
+                {"size": "medium", "price": 17.99},
+                {"size": "large", "price": 19.99},
+                {"size": "xLarge", "price": 22.99}
+        ],
+        "points": 5
+    },
+    {
+        "id": 5,
+        "name": "BBQ Chicken Pizza",
+        "category": "pizza",
+        "image": "/images/pizzas/bbq-chicken.png",
+        "description": "CHICKEN BREAST, CILANTRO, ONIONS, RED PEPPERS, AND BBQ SAUCE",
+        "price": [
+                {"size": "small", "price": 15.99},
+                {"size": "medium", "price": 17.99},
+                {"size": "large", "price": 19.99},
+                {"size": "xLarge", "price": 22.99}
+        ],
+        "points": 5
+    },
+    {
+        "id": 6,
+        "name": "Mexican Pizza",
+        "category": "pizza",
+        "image": "/images/pizzas/mexican.png",
+        "description": "CHORIZO, CILANTRO, JALAPENOS, BEANS, AND CHIPOTLE SAUCE",
+        "price": [
+                {"size": "small", "price": 15.99},
+                {"size": "medium", "price": 17.99},
+                {"size": "large", "price": 19.99},
+                {"size": "xLarge", "price": 22.99}
+        ],
+        "points": 5
+    },
+    {
+        "id": 7,
+        "name": "Vegetarian Pizza",
+        "category": "pizza",
+        "image": "/images/pizzas/veggie.png",
+        "description": "TOMATOES, OLIVES, MUSHROOMS, GREEN PEPPERS, AND ARTICHOKES",
+        "price": [
+                {"size": "small", "price": 15.99},
+                {"size": "medium", "price": 17.99},
+                {"size": "large", "price": 19.99},
+                {"size": "xLarge", "price": 22.99}
+        ],
+        "points": 5
+    },
+    {
+        "id": 8,
+        "name": "Greek Pizza",
+        "category": "pizza",
+        "image": "/images/pizzas/greek.png",
+        "description": "FETA CHEESE, LAMB, TOMATOES, OLIVES, AND RED PEPPERS",
+        "price": [
+                {"size": "small", "price": 15.99},
+                {"size": "medium", "price": 17.99},
+                {"size": "large", "price": 19.99},
+                {"size": "xLarge", "price": 22.99}
+        ],
+        "points": 5
+    },
+    {
+        "id": 9,
+        "name": "Chicken Alfredo Pizza",
+        "category": "pizza",
+        "image": "/images/pizzas/alfredo-chicken.png",
+        "description": "CHICKEN BREAST, BROCCOLI, MUSHROOM, GARLIC, AND ALFREDO SAUCE",
+        "price": [
+                {"size": "small", "price": 15.99},
+                {"size": "medium", "price": 17.99},
+                {"size": "large", "price": 19.99},
+                {"size": "xLarge", "price": 22.99}
+        ],
+        "points": 5
+    },
+    {
+        "id": 10,
+        "name": "Antipasto Salad",
+        "category": "salad",
+        "image": "/images/salads/antipasto.png",
+        "description": "SALAMI, PEPPERONI, PEPPERONCINIS, GREEN PEPPERS, RED ONIONS, TOMATOES, OLIVES, MOZZARELLA, AND GARBANZO BEANS.  SERVED WITH A SIDE OF GARLIC BREAD.",
+        "price": 8.99,
+        "points": 1
+    },
+    {
+        "id": 11,
+        "name": "Caesar Salad",
+        "category": "salad",
+        "image": "/images/salads/caesar.png",
+        "description": "ROMAINE LETTUCE, PARMESAN CHEESE, CROUTONS, CAESAR SALAD DRESSING.  COMES WITH A SIDE OF GARLIC BREAD.",
+        "price": 6.99,
+        "points": 1
+    },
+    {
+        "id": 12,
+        "name": "Chicken Caesar Salad",
+        "category": "salad",
+        "image": "/images/salads/chicken-caesar.png",
+        "description": "CHICKEN BREAST, ROMAINE LETTUCE, PARMESAN CHEESE, CROUTONS, CAESAR SALAD DRESSING.  COMES WITH A SIDE OF GARLIC BREAD.",
+        "price": 9.99,
+        "points": 1
+    },
+    {
+        "id": 13,
+        "name": "House Salad",
+        "category": "salad",
+        "image": "/images/salads/green.png",
+        "description": "ICEBERG LETTUCE, TOMATO SLICES, RED ONIONS, GREEN PEPPERS, OLIVES, PEPPERONCINIS, AND GARBANZO BEANS.  COMES WITH RANCH DRESSING AND A SIDE OF GARLIC BREAD.",
+        "price": 6.99,
+        "points": 1
+    },
+    {
+        "id": 14,
+        "name": "Greek Salad",
+        "category": "salad",
+        "image": "/images/salads/greek.png",
+        "description": "ICEBERG LETTUCE, FETA CHEESE, DRIED TOMATOES, CUCUMBER SLICES, AND OLIVES. COMES WITH A SIDE OF GARLIC BREAD.",
+        "price": 7.99,
+        "points": 1
+    },
+    {
+        "id": 15,
+        "name": "Buffalo Wings",
+        "category": "appetizer",
+        "image": "/images/appetizers/12-wing.png",
+        "description": "12 WINGS SERVED WITH CELERY AND CARROT STICKS.  COMES WITH RANCH OR BLUE CHEESE DRESSING.",
+        "price": 8.99,
+        "flavor": ["Mild", "Medium", "Hot", "Extra Hot"],
+        "dressing": ["Blue Cheese", "Ranch"],
+        "points": 1
+    },
+    {
+        "id": 16,
+        "name": "Chicken Tenders",
+        "category": "appetizer",
+        "image": "/images/appetizers/chicken-tender.png",
+        "description": "5 PIECES OF CHICKEN TENDERS.  COMES WITH BLUE CHEESE OR RANCH DRESSING.",
+        "price": 8.99,
+        "dressing": ["Blue Cheese", "Ranch"],
+        "points": 1
+    },
+    {
+        "id": 17,
+        "name": "Breadsticks",
+        "category": "appetizer",
+        "image": "/images/appetizers/breadstick.png",
+        "description": "5 BREADSTICKS.  COMES WITH MARINARA SAUCE.",
+        "price": 6.99,
+        "points": 1
+    },
+    {
+        "id": 18,
+        "name": "Garlic Bread",
+        "category": "appetizer",
+        "image": "/images/appetizers/garlic-bread.png",
+        "description": "2 PIECES OF TOASTED GARLIC BREAD.  COMES WITH MARINARA SAUCE.",
+        "price": 6.99,
+        "points": 1
+    },
+    {
+        "id": 19,
+        "name": "Onion Rings",
+        "category": "appetizer",
+        "image": "/images/appetizers/onion-rings.png",
+        "description": "COMES WITH A SIDE OF RANCH DRESSING.",
+        "price": 6.99,
+        "points": 1
+    },
+    {
+        "id": 20,
+        "name": "Pepsi",
+        "category": "drink",
+        "image": "/images/drinks/pepsi.jpeg",
+        "price": [
+            {"size": "Can", "price": 3.99}, {"size": "20 Ounce", "price": 4.99}, {"size": "2 Liter", "price": 6.99}
+        ],
+        "points": 0
+    },
+    {
+        "id": 21,
+        "name": "Diet Pepsi",
+        "category": "drink",
+        "image": "/images/drinks/dietPepsi.webp",
+        "price": [
+            {"size": "Can", "price": 3.99}, {"size": "20 Ounce", "price": 4.99}, {"size": "2 Liter", "price": 6.99}
+        ],
+        "points": 0
+    },
+    {
+        "id": 22,
+        "name": "Pepsi Zero Sugar",
+        "category": "drink",
+        "image": "/images/drinks/pepsiZero.webp",
+        "price": [
+            {"size": "Can", "price": 3.99}, {"size": "20 Ounce", "price": 4.99}, {"size": "2 Liter", "price": 6.99}
+        ],
+        "points": 0
+    },
+    {
+        "id": 23,
+        "name": "Mountain Dew",
+        "category": "drink",
+        "image": "/images/drinks/mountaindew.webp",
+        "price": [
+            {"size": "Can", "price": 3.99}, {"size": "20 Ounce", "price": 4.99}, {"size": "2 Liter", "price": 6.99}
+        ],
+        "points": 0
+    }
+]

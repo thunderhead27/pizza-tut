@@ -1,0 +1,11 @@
+db.stores.insertOne({ name: "Hollywood", location: { type: "Point", coordinates: [-118.315890, 34.090500] }, address: { street: "5800 Santa Monica Blvd", city: "Los Angeles", state: "CA", zip: 90038 } });
+
+db.stores.insertOne({ name: "Pasadena", location: { type: "Point", coordinates: [-118.131302, 34.148972] }, address: { street: "160 N Lake Ave", city: "Pasadena", state: "CA", zip: 91101 } });
+
+db.stores.insertOne({ name: "Santa Monica", location: { type: "Point", coordinates: [-118.497681, 34.016979] }, address: { street: "1212 3rd Street Promenade", city: "Santa Monica", state: "CA", zip: 90401 } });
+
+db.stores.insertOne({ name: "Manhattan Beach", location: { type: "Point", coordinates: [-118.410629, 33.886452] }, address: { street: "1305 Highland Ave", city: "Manhattan Beach", state: "CA", zip: 90266 } });
+
+db.stores.insertOne({ name: "Palos Verdes", location: { type: "Point", coordinates: [-118.417770, 33.774780] }, address: { street: "2325 Palos Verdes Dr W", city: "Palos Verdes Estates", state: "CA", zip: 90274 } });
+
+db.stores.aggregate([{ $geoNear: { near: { type: "Point", coordinates: [28.411134, 77.331801] }, distanceField: "calcDistance", $maxDistance: 150000, spherical: true } }]).pretty()

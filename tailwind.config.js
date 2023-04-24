@@ -8,15 +8,15 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    colors: {
-      cOrange: '#F2A549',
-      dOrange: '#F27C38',
-      cBlack: '#0D0D0D',
-      cBrown: '#8C5627',
-      white: '#ffffff',
-
-    },
     extend: {
+      colors: {
+        cOrange: '#F2A549',
+        dOrange: '#F27C38',
+        cBlack: '#0D0D0D',
+        cBrown: '#8C5627',
+        white: '#ffffff',
+
+      },
       fontFamily: {
         sans: ['var(--font-metropolis)', ...fontFamily.sans],
         thunder: ['var(--font-thunder)'],
