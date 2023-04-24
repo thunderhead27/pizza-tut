@@ -121,6 +121,7 @@ export default function AdminDrinks({ drinks }: InferGetServerSidePropsType<type
             category: "drink",
             image: imageUrl,
             price: price,
+            points: 0,
         }
 
 

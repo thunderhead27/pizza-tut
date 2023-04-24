@@ -56,6 +56,7 @@ export default function EditSalad({ salad }: InferGetServerSidePropsType<typeof 
             description: data.description,
             image: data.image,
             price: data.price,
+            points: data.points
         }
 
         await axios.put(`/api/admin/products/edit/${salad._id}`, updatedSalad)
@@ -129,6 +130,15 @@ export default function EditSalad({ salad }: InferGetServerSidePropsType<typeof 
                                     </div>
                                     <input className="bg-white text-black rounded-md p-2 border-cOrange border-2 focus:outline-cBrown w-full" placeholder="Price" {...register("price", { required: true })} />
                                     {errors.price &&
+                                        <div className="text-xs font-bold uppercase">Can&apos;t be empty</div>
+                                    }
+                                </div>
+                                <div className="relative flex flex-col">
+                                    <div>
+                                        <label className="font-bold text-sm" htmlFor="points">Points</label>
+                                    </div>
+                                    <input className="bg-white text-black rounded-md p-2 border-cOrange border-2 focus:outline-cBrown w-full" placeholder="Description" {...register("points", { required: true })} />
+                                    {errors.points &&
                                         <div className="text-xs font-bold uppercase">Can&apos;t be empty</div>
                                     }
                                 </div>
