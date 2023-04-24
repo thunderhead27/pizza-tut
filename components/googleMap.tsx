@@ -9,7 +9,8 @@ const containerStyle = {
 function Map({ center }: any) {
     const { isLoaded } = useJsApiLoader({
         id: 'google-map-script',
-        googleMapsApiKey: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API! // ,
+        //@ts-ignore
+        googleMapsApiKey: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API // ,
     })
 
     const onLoad = marker => {

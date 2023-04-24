@@ -14,8 +14,8 @@ import { useSession } from 'next-auth/react';
 import axios from 'axios';
 import { CartContext } from "@/context/CartContext";
 
-
-Geocode.setApiKey(process.env.NEXT_PUBLIC_GOOGLE_MAPS_API!);
+//@ts-ignore
+Geocode.setApiKey(process.env.NEXT_PUBLIC_GOOGLE_MAPS_API);
 Geocode.setLanguage("en");
 
 
