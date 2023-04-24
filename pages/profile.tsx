@@ -84,7 +84,7 @@ export default function Profile({ user, orders, pages }: InferGetServerSideProps
                                             <div key={i}>{item.totalQuantity}<span className="lowercase">x</span> {item.toppings.length > 0 ? item.name + ' with ' + item.toppings.map(topping => (topping)) : item.name}</div>
                                         ))}
                                     </td>
-                                    <td className="border border-cBrown xl:px-4 xl:w-[140px]">${order.totalPrice}</td>
+                                    <td className="border border-cBrown xl:px-4 xl:w-[140px]">${order.totalPrice.toFixed(2)}</td>
                                 </tr>
                             ))}
                         </tbody>
