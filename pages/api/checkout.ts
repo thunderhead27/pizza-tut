@@ -15,11 +15,15 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 
     await dbConnect();
 
-    const newOrder = new Order(order)
+    //@ts-ignore
+    const user = await User.findById(order.userId);
+    const newOrder = new Order(order);
     const savedOrder = await newOrder.save();
 
     //@ts-ignore
     const updatedUser = await User.findByIdAndUpdate(points.user, { points: points.points });
+    user.orders = user.orders.concat(savedOrder._id)
+    await user.save()
 
     res.send({
         message: 'Created order',

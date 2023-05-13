@@ -16,6 +16,10 @@ const UserSchema = new mongoose.Schema(
         password: { type: String, required: true },
         isAdmin: { type: Boolean, required: true, default: false },
         myStore: { type: MyStoreSchema },
+        orders: [{
+            type: mongoose.Schema.Types.ObjectId,
+            ref: 'Order'
+        }],
         points: { type: Number, required: true, default: 0 }
     },
     {

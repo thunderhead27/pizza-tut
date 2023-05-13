@@ -1,8 +1,10 @@
 import Layout from "@/components/layout"
 import Head from "next/head";
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 export default function AdminProducts() {
+    const router = useRouter();
 
     return (
         <Layout>
@@ -12,6 +14,9 @@ export default function AdminProducts() {
                 </Head>
                 <div className="flex flex-col items-center gap-y-4">
                     <h1 className="font-bold text-4xl font-thunder py-6 xl:py-12">MENU</h1>
+                </div>
+                <div className="absolute flex flex-col gap-y-4 top-[200px] left-8 xl:text-2xl uppercase">
+                    <button onClick={() => router.back()}>GO BACK</button>
                 </div>
                 <div className="flex flex-col items-center font-thunder">
                     <div className="flex flex-col md:flex-row gap-x-4 gap-y-4 pt-8">

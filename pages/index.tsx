@@ -59,6 +59,7 @@ export default function Home() {
 
           {/* Bottom Hero */}
           <div className="flex flex-col md:flex-row pt-8 gap-4">
+            <div className="h-[300px] md:w-[350px] lg:w-[608px] lg:h-[500px] bg-[url('/images/secondPizza.png')] bg-cover rounded-md"></div>
             <div className="flex flex-col items-center justify-center w-[356px] h-[300px] lg:h-[500px] bg-gradient-to-b from-dOrange to-cOrange rounded-md">
               <div className="text-center font-bold pb-4">
                 <h1 className="text-4xl">ORDER ONLINE</h1>
@@ -70,7 +71,7 @@ export default function Home() {
                 </Link>
               </button>
             </div>
-            <div className="h-[300px] md:w-[350px] lg:w-[608px] lg:h-[500px] bg-[url('/images/secondPizza.png')] bg-cover rounded-md"></div>
+
           </div>
         </div>
 

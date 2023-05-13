@@ -53,7 +53,9 @@ const Navbar = () => {
                     <Link href="/shoppingCart">
                         <div className="flex flex-row">
                             <Image src="/images/cart.svg" width={32} height={32} alt="cart" />
-                            <div className="relative right-3 bottom-2 h-5 w-5 rounded-full border-cBlack border-2 bg-cBrown"></div>
+                            <div className="relative right-3 bottom-2 h-5 w-5 rounded-full border-cBlack border-2 bg-cBrown text-white text-center">
+                                {state?.cart?.cartItems?.length ? state.cart.cartItems.length : null}
+                            </div>
                         </div>
                     </Link>
                 </div>

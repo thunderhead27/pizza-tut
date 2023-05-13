@@ -54,8 +54,12 @@ export default function AdminUsers({ users }: InferGetServerSidePropsType<typeof
                         <Head>
                             <title>Pizza Tut - Users</title>
                         </Head>
+
                         <div className="flex flex-col items-center gap-y-4">
                             <h1 className="font-bold text-4xl font-thunder py-6 lg:py-12">USERS</h1>
+                            <div className="absolute flex flex-col gap-y-4 top-[200px] left-8 xl:text-2xl uppercase">
+                                <button onClick={() => router.back()}>GO BACK</button>
+                            </div>
 
                             <table>
                                 <thead>

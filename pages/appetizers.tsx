@@ -106,7 +106,7 @@ export default function Appetizers({ appetizers }: InferGetServerSidePropsType<t
                                 <h1 className="font-bold lg:text-3xl md:text-xl text-sm uppercase">{appetizer.name}</h1>
                                 <p className="lg:text-lg text-xs font-medium mb-4">{appetizer.description}</p>
                                 <div className="flex flex-col lg:items-center gap-y-2 lg:flex-row gap-x-6">
-                                    <div className="flex flex-row items-center gap-x-4 text-sm lg:text-xl">
+                                    <div className="flex flex-col gap-x-4 text-sm lg:text-xl">
                                         {appetizer.flavor!.length > 0 && appetizer.dressing!.length > 0 ?
                                             <div className="flex flex-col gap-y-8">
                                                 {appetizer.flavor!.length > 0 ?

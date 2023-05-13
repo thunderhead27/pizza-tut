@@ -114,6 +114,13 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
     //@ts-ignore
     const fetchedUser = await User.findOne({ _id: session.user._id })
 
+    //@ts-ignore
+    const fetchedOrders2 = await User.findOne({ _id: session.user._id })
+        .populate('orders')
+
+    console.log(fetchedOrders2)
+
+
     const fetchedOrders = await Order
         //@ts-ignore
         .find({ userId: session.user._id })
